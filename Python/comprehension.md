@@ -75,3 +75,23 @@ print(dict)  # {1: 2, 2: 4, 3: 6}
 
 
 
+## 중첩 Comprehension
+
+```python
+num = []
+for i in range(1, 31):
+    if i % 2:
+        num.append(i)
+
+print(num)
+```
+
+```python
+num = []
+num = [i for i in range(1, 31) if i % 2]
+
+print(num)
+```
+
+
+
