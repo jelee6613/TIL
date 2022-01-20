@@ -1,4 +1,4 @@
-# Python_01_function
+# Python_01_Function
 
 ## 함수
 
@@ -136,3 +136,8 @@ function(positional_argument_1, ..., keyword_argument)
 **parameter, argument에 키, 값 지정하면 딕셔너리로 반환
 
 함수가 임의의 개수 argument를 keyword argument로 호출될 수 있도록 지정 (딕셔너리 key : value)
+
+
+
+*는 1개 이상의 위치인자를 하나의 튜플로
+**는 1개 이상의 키워드인자를 하나의 딕트로
