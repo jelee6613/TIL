@@ -88,11 +88,47 @@ print(result)
 
 1개 이상의 base case가 존재하고, 수렴하도록 작성
 
+```python
+def is_pal_while(w):
+    while len(w) > 1:
+        if w[0] == w[-1]:
+            w = w[1:-1]
+        else:
+            return False
+	
+    return True
+
+
+
+def is_pal_recursive(w):
+    if 1 >= len(w):
+        return True
+    else:
+        if w[0] == w[-1]:
+            w = w[1:-1]
+        else:
+            return False
+
+    return is_pal_recursive(w)
+```
+
+
+
 
 
 ## Lambda
 
 lambda 파라미터: 리턴
+
+```python
+def my_function(x, y):
+    return x + y
+
+lambda x,y : x+y 
+    
+```
+
+
 
 
 
