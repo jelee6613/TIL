@@ -50,7 +50,7 @@
 
 #### Range
 
-* 불변형 (immutable)
+* Immutable (불변형)
 
 range(b)
 
