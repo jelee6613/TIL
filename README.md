@@ -1,14 +1,33 @@
-# 오늘 내가 배운 것들의 기록 (TIL)
+# 🚣 하루하루 배운 것들의 기록 (TIL)
 
-## 무엇을
+`first commit : 2022_01_13`
 
-매일 내가 배운 개발 지식을 기록합니다.
+`recent commit : 2022_02_02`
 
-## 왜
+---
 
-잊어버리지 않기 위해서 기록합니다.
 
-## 어떻게
 
-대부분 .md에 필기 형식으로 기록합니다.
+## 🙋‍♂️ I'm doing
 
+`2022_01`
+
+`week2` : `git`, `markdown`
+
+`week3` : <span style="color:blue">`python` </span>
+
+`week4` : <span style="color:red">`algorithm` </span>, <span style="color:blue">`python` </span>
+
+
+
+`2022_02`
+
+`week1 ~ : algorithm`
+
+
+
+## 💁‍♂️ Because
+
+`2022_01`
+
+>  체계적인 TIL 관리 및 학습 환경을 위해 기본적인 git 사용법 공부와 리포 관리를 시작했고, 마크다운 작성에 익숙해졌다. 처음에 배우기 좋다는 이유로 python을 선택했고, 반복문, 조건문에 익숙해지면서 함수 작성과 백준 문제를 집중적으로 풀었다. python은 class 생성과 내부 메소드 작성까지 공부했다.
