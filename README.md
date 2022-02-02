@@ -6,9 +6,11 @@
 
 ---
 
-
+<br>
 
 ## 🙋‍♂️ I'm doing
+
+<br>
 
 `2022_01`
 
@@ -18,15 +20,17 @@
 
 `week4` : <span style="color:red">`algorithm` </span>, <span style="color:blue">`python` </span>
 
-
+<br>
 
 `2022_02`
 
 `week1 ~ : algorithm`
 
-
+<br><br>
 
 ## 💁‍♂️ Because
+
+<br>
 
 `2022_01`
 
