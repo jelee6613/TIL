@@ -1,4 +1,4 @@
-# HTML&CSS_01
+# HTML_01
 
 ## HTML
 
@@ -38,8 +38,8 @@ HTML의 요소는 시작 태그와 종료 태그 그리고 태그 사이에 위�
 
 * id : 문서 전체에서 유일한 고유 식별자 지정
 * class : 공백으로 구분된 해당 요소의 클래스의 목록
-* data-* : 페이지에 개인 사용자 정의 데이터를 저장하기 위해 사용
 * style : inline 스타일
+* data-* : 페이지에 개인 사용자 정의 데이터를 저장하기 위해 사용
 * title : 요소에 대한 추가 정보 지정
 * tabindex : 요소의 탭 순서
 
@@ -120,6 +120,12 @@ HTTP 프로토콜의 body에 파라미터가 넘어가는 방식
 * value
 * required, autofocus, disabled, readonly, autocomplete
 
+input type을 적절히 지정해줘야 UI 개선 (ex. type="password" 하면 유저는 숫자입력창 나옴)
+
+체크박스 같은 경우 각 박스에 value 값 지정해야 해당 체크 박스에 따라 value 값 넘어감
+
+text는 입력 값이 value 값으로 넘어감
+
 
 
 ###### input label
@@ -134,30 +140,3 @@ label을 클릭하여 input 자체의 초점을 맞추거나 활성화 가능
 <label for="name">사용자</label>			 # for 속성과
 <input type="text" id="name" name="name">  # id 속성이 상호 연관
 ```
-
-
-
----
-
-
-
-선택자
-
-점수가 똑같으면 나중의 것 적용
-
-
-
-클래스는 따옴표 안에 띄어쓰기 기준으로 구분
-
-
-
-HTML은 구조 잡기다. 보여주는 게 아니라
-
-
-
-get post 차이
-
-
-
-* nth-child(n) : n번째 자리에 해당 요소가 있다면 기능
-* nth-of-type(n) : 특정 요소 중 n번째 요소에 기능
