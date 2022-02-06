@@ -6,7 +6,7 @@
 
 `first commit : 2022_01_13`
 
-`recent commit : 2022_02_03`
+`recent commit : 2022_02_05`
 
 </head>
 
@@ -20,15 +20,15 @@
 
 `week2` : `git`, `markdown`
 
-`week3` : <span style="color:blue">`python` </span>
+`week3` : <span style="color:gold">`python` </span>
 
-`week4` : <span style="color:red">`algorithm` </span>, <span style="color:blue">`python` </span>
+`week4` : <span style="color:red;">`algorithm` </span>, <span style="color:gold;">`python` </span>
 
 <br>
 
 `2022_02`
 
-`week1` : <span style="color:red">`algorithm` </span>
+`week1` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
 
 <hr>
 
