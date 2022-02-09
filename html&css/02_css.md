@@ -1,4 +1,4 @@
-# CSS_01
+# CSS_01_Basic
 
 ## CSS
 
@@ -60,6 +60,8 @@ border 까지의 너비를 설정하고 싶다면 `box-sizing: border-box;`
   width, height, margin-top, margin-bottom을 지정할 수 없다.
 
   상하 여백은 line-height로 지정한다.
+
+  *단, img는 너비 높이 설정 가능*
 
   
 
