@@ -23,19 +23,19 @@
 
   ​	   bj : Baekjoon / swea : SW expert academy
 
-   
+   <br>
 
 * <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 
 
   👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
 
-  
+  <br>
 
 * <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/etc">etc</a> 
 
   👉 잡다한 학습 기록입니다.
 
-
+<br>
 
 ## 🙋‍♂️ I'm doing
 
@@ -54,6 +54,8 @@
 `week1` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
 
 `week2` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
+
+<br>
 
 <hr>
 
