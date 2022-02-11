@@ -15,12 +15,25 @@
 
 ## 🔍 Guide
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/algorithms">algorithms</a> 👉 각종 알고리즘 사이트에서 삽질한(2시간 이상) 문제를 모아놨습니다. 파일명은 '날짜_사이트' 입니다.
-  * 알고리즘 사이트 👉 bj : Baekjoon / swea : SW expert academy 
+* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/algorithms">algorithms</a> 
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
+  👉 각종 알고리즘 사이트에서 삽질한(2시간 이상 붙든) 문제를 모아놨습니다. 
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/etc">etc</a> 👉 정리하기 애매한 잡다한 학습 기록입니다.
+  ​	   파일 이름은 '날짜_사이트' 입니다.
+
+  ​	   bj : Baekjoon / swea : SW expert academy
+
+   
+
+* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 
+
+  👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
+
+  
+
+* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/etc">etc</a> 
+
+  👉 잡다한 학습 기록입니다.
 
 
 
