@@ -6,7 +6,7 @@
 
 `first commit : 2022_01_13`
 
-`recent commit : 2022_02_10`
+`recent commit : 2022_02_11`
 
 </head>
 
@@ -15,9 +15,9 @@
 
 ## 🔍 Guide
 
-<a href="https://github.com/jelee6613/TIL/tree/master/algorithms">algorithms</a> 의 파일명은 '날짜_사이트' 이고, 삽질한 문제 위주로 기록합니다.
+<a href="https://github.com/jelee6613/TIL/tree/master/algorithms">algorithms</a> 안의 파일명은 '날짜_사이트' 이고, 삽질한 문제 위주로 기록합니다.
 
-<a href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 은/는 공부했을 당시 매일 남긴 기록입니다.
+<a href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 은/는 공부하면서 남긴 단계적 기록입니다.
 
 <a href="https://github.com/jelee6613/TIL/tree/master/etc">etc</a> 는 정리하기 애매한 잡다한 기록입니다.
 
@@ -39,11 +39,11 @@
 
 `week1` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
 
-`week2` : <span style="color:red;">`algorithm` </span>
+`week2` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
 
 <hr>
 
-## 💁‍♂️ Because
+## 💁‍♂️ Review
 
 `2022_01`
 
