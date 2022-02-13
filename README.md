@@ -5,8 +5,7 @@
 # 📓 하루하루 배운 것들의 기록 (TIL)
 
 `first_commit : 2022_01_13`
-
-`recent_commit : 2022_02_12`
+`recent_commit : 2022_02_13`
 
 </head>
 
@@ -15,17 +14,17 @@
 
 ## 🔍 Guide
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/algorithms">algorithms</a> 
+* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/aps">aps</a> 
 
-  👉 각종 알고리즘 사이트에서 삽질한(2시간 이상 붙든) 문제를 모아놨습니다. 
+  👉 각종 알고리즘 사이트에서 기억하고 싶은 문제를 모아놨습니다. 
+         파일 이름은 '날짜_사이트' 입니다.
 
-  ​	   파일 이름은 '날짜_사이트' 입니다.
-
-  ​	   bj : Baekjoon / swea : SW expert academy
+  ​	   bj : Baekjoon
+  ​	   swea : SW expert academy
 
    <br>
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> 
+* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
 
   👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
 
