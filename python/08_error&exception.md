@@ -1,4 +1,4 @@
-# Python_01_Error & Exception
+# Python_08_Error & Exception
 
 ## 디버깅
 

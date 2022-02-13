@@ -1,6 +1,6 @@
 
 
-# Python_02_Function
+# Python_06_Function
 
 ## 스코프
 
