@@ -1,4 +1,4 @@
-# HTML_01_Basic
+# HTML&CSS_01_HTML
 
 ## HTML
 
@@ -8,7 +8,7 @@ Hyper Text Markup Language
 
 
 
-* html : 문서의 최상의 요소
+* html : 문서 최상위 요소
 * head : 문서 메타데이터 요소 (제목, 스타일, 브라우저에 나타나지 않는 내용)
 * body : 문서 본문 요소 (실제 화면 구성과 관련된 내용)
 

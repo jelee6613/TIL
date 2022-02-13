@@ -1,4 +1,4 @@
-# CSS_01_Basic
+# HTML&CSS_02_CSS
 
 ## CSS
 

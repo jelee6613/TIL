@@ -1,4 +1,4 @@
-# CSS_02_Flex
+# HTML&CSS_03_Flex
 
 Inline <span> ex. input, img...
 
