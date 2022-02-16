@@ -17,12 +17,7 @@
 
 * <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/aps">aps</a> 
 
-  👉 각종 알고리즘 사이트에서 기억하고 싶은 문제를 모아놨습니다. 
-         파일 이름은 '날짜_사이트' 입니다.
-
-  ​	   <strong>bj</strong> : Baekjoon
-  
-  ​       <strong>swea</strong> : SW expert academy
+  👉 각종 알고리즘 사이트에서 기억하고 싶은 문제를 모아놨습니다.
   
    <br>
   
