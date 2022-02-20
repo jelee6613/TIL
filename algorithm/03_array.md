@@ -1,8 +1,24 @@
-# Algorithm_02
+# Algorithm_03_array
 
 
 
-## 델타배열
+## 2차원 배열
+
+* 1차원 List를 묶어놓은 List
+* [[0, 1, 2, 3], [4, 5, 6, 7]]
+
+
+
+```python
+# 지그재그 순회 (N*N)
+for row in range(N):
+    for col in range(N):
+        arr[row][col + (N-1-2*col) * row%2]
+```
+
+
+
+## 델타 탐색
 
 ```python
 N = 3
@@ -24,9 +40,18 @@ for row in range(N):
 
 
 
+## 전치 행렬
+
+```python
+for row in range(N):
+    for col in range(N):
+        if row < col:
+			arr[row][col], arr[col][row] = arr[col][row], arr[row][col]
+```
+
+
+
 ## 비트 연산자
-
-
 
 & : 비트 단위로 AND 연산
 
@@ -43,16 +68,7 @@ for row in range(N):
 
 
 
+## 조합
 
+`from itertools import combinations`
 
-
-
-비트연산자, 이진검색알고리즘, 버블과 선택정렬의 차이를 설명
-
-
-
-from itertools import combinations
-
-
-
-![image-20220214175123202](220214.assets/image-20220214175123202.png)
