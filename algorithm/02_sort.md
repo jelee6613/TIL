@@ -1,4 +1,4 @@
-# Algorithm_02_Array
+# Algorithm_02_Sort
 
 
 
