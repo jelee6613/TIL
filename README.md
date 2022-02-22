@@ -6,7 +6,7 @@
 
 `first_commit : 2022_01_13`
 
-`recent_commit : 2022_02_19`
+`recent_commit : 2022_02_21`
 
 </head>
 
@@ -50,6 +50,8 @@
 `week1` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>
 
 `week2` : <span style="color:red;">`algorithm` </span>, <span style="color:darkorange;">`html` </span>, <span style="color:blue;">`css` </span>, <span style="color:violet;">`bootstrap` </span>, <span style="color:grey;">`grid` </span>
+
+`week3` : <span style="color:red;">`algorithm` </span>
 
 <br>
 
