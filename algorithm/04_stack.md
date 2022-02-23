@@ -18,6 +18,8 @@
 
 ### 삽입: push
 
+저장소에 자료를 저장
+
 ```python
 def push(item, size):
 	global top
@@ -38,6 +40,8 @@ push(10, size)
 
 ### 삭제: pop
 
+저장소에서 자료를 역순으로 꺼냄
+
 ```python
 def pop():
     global top
@@ -56,9 +60,9 @@ pop()  # [10, 0, 0, 0, 0], 보이는 건 같지만 top -= 1로 인해, 새로 pu
 
 
 
-스택 공백여부 : isEmpty
+isEmpty : 스택이 공백인지 아닌지를 확인하는 연산
 
-스택 top 원소출력 : peek
+peek : 스택의 top에 있는 item(원소)을 반환하는 연산
 
 
 
