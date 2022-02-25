@@ -10,7 +10,7 @@
 
 ## 정렬 
 
-### 버블 정렬(Bubble Sort)
+### 버블 정렬
 
 인접한 두 개의 원소를 비교하며 자리를 반복 교환하는 방식
 
@@ -27,7 +27,7 @@ for i in range(len(list)-1, 0, -1):
 
 
 
-### 카운팅 정렬(Counting Sort)
+### 카운팅 정렬
 
 항목들의 순서를 결정하기 위해 집합에 각 항목이 몇 개씩 있는지 세는 작업을 하여, 선형 시간에 정렬하는 효율적인 알고리즘
 
@@ -69,4 +69,29 @@ def select(arr, k):
 
 print(select(arr, 2))
 ```
+
+
+
+### 퀵 정렬
+
+```python
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    
+    pivot = arr.pop(0)
+    higher_pivot, lower_pivot = [], []
+    
+    for num in arr:
+        if num > pivot:
+            higher_pivot.append(num)
+        else:
+            lower_pivot.append(num)
+    return quick_sort(lower_pivot) + [pivot] + quick_sort(higher_pivot)
+            
+arr = [3, 2, 7, 1, 4, 8]
+print(quick_sort(arr))  # [1, 2, 3, 4, 7, 8]
+```
+
+
 

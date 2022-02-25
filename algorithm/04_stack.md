@@ -96,6 +96,7 @@ def fibo(n):
 
 
 
-깊이 우선 탐색(Depth First Search, DFS)
+## Queue
 
-너비 우선 탐색(Breadth First Search, BFS)
+dir() 할 수 있는 목록
+from collections import deque
