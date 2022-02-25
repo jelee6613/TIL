@@ -16,7 +16,7 @@ Git을 설치하면 가장 먼저 사용자이름과 주소를 설정
 
 ``` bash
 $ git config --global user.name "jelee6613"
-$ git config --global user.email "jelee6613@gamail.com"
+$ git config --global user.email "jelee6613@gmail.com"
 ```
 
 프로젝트마다 다른 이름과 이메일을 사용하고 싶으면 `--global` 을 빼고 입력
