@@ -6,7 +6,7 @@
 
 `first_commit : 2022_01_13`
 
-`recent_commit : 2022_02_24`
+`recent_commit : 2022_02_27`
 
 </head>
 
@@ -53,6 +53,8 @@
 
 `week3` : <span style="color:red;">`algorithm` </span>
 
+`week4` : <span style="color:red;">`algorithm` </span>
+
 <br>
 
 <hr>
@@ -62,6 +64,12 @@
 `2022_01`
 
 >  체계적인 TIL 관리 및 학습 환경을 위해 기본적인 git 사용법 공부와 리포 관리를 시작했고, 마크다운 작성에 익숙해졌다. 처음에 배우기 좋다는 이유로 python을 선택했고, 반복문, 조건문에 익숙해지면서 함수 작성과 백준 문제를 집중적으로 풀었다. python은 class 생성과 내부 메소드 작성까지 공부했다.
+
+
+
+`2022_02`
+
+>  기본적인 html, css 작성부터 bootstrap 을 활용한 grid 시스템, 사용자 디바이스에 따른 가변적 레이아웃 구성을 하며 UI의 중요성을 체감했다. 나머지 시간은 알고리즘을 집중적으로 풀었다. 버블, 카운팅, 퀵소트부터 dp, memoization, stack, queue의 개념 그리고 combination 알고리즘을 학습했다.
 
 </body>
 
