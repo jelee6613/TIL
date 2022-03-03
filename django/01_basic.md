@@ -28,6 +28,10 @@ Django는 MTV (model-template-view) pattern
 
 
 
+<img src="https://github.com/jelee6613/TIL/blob/master/img/image-20220302092543448.png" />
+
+
+
 ## MTV pattern
 
 ### Model
