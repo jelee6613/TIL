@@ -1,6 +1,6 @@
 # Django_02_Basic
 
-![image-20220303210609739](https://github.com/jelee6613/TIL/tree/master/img/image-20220303210609739.png) 
+<img src="https://github.com/jelee6613/TIL/blob/master/img/image-20220303210609739.png" />
 
 최상위 templates 폴더를 만들어서 기본 뼈대 레이아웃 html 을 구축하자!
 
