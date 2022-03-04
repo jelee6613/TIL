@@ -14,6 +14,8 @@
 
 순서가 있는 목록(ordered list)과 순서가 없는 목록(unordered list)이 있다.
 
+
+
 ### 순서 있는 목록(ordered list)
 
 1을 쓰고 띄어쓰기
