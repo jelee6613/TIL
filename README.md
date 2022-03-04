@@ -6,7 +6,7 @@
 
 `first_commit : 2022_01_13`
 
-`recent_commit : 2022_02_27`
+`recent_commit : 2022_03_04`
 
 </head>
 
@@ -21,17 +21,11 @@
   
    <br>
   
-* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
+* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/django">django</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
 
   👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
 
   <br>
-
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/etc">etc</a> 
-
-  👉 잡다한 학습 기록입니다.
-
-<br>
 
 ## 🙋‍♂️ I'm doing
 
@@ -56,6 +50,10 @@
 `week4` : <span style="color:red;">`algorithm` </span>
 
 <br>
+
+`2022_03`
+
+`week1` : `django`
 
 <hr>
 
