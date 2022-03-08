@@ -1,4 +1,4 @@
-# Django_02_Basic
+# Django_02_Templates
 
 <img src="https://github.com/jelee6613/TIL/blob/master/img/image-20220303210609739.png" />
 

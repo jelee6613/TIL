@@ -2,9 +2,9 @@
 
 
 
-Static web page: 정적 웹페이지
-
-Dynamic web page: 동적 웹페이지
+* 현대 웹프레임워크의 요점은 웹 개발 속도를 높이는 것(생산성)
+* Static web page: 정적 웹페이지
+* Dynamic web page: 동적 웹페이지
 
 
 
