@@ -6,7 +6,7 @@
 
 `first_commit : 2022_01_13`
 
-`recent_commit : 2022_03_10`
+`recent_commit : 2022_03_13`
 
 </head>
 
@@ -54,6 +54,8 @@
 `2022_03`
 
 `week1` : `django`
+
+`week2` : `django`
 
 <hr>
 
