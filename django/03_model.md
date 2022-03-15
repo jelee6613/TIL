@@ -131,4 +131,14 @@ from .models import Articles  # class이름
 
 
 
+## ORM
 
+objects.filter(title__contains=keyword) : keyword를 포함한 제목
+
+objects.order_by('-pk') : pk를 내림차순으로 정렬
+
+
+
+## 필터
+
+`|linebreaksbr` : textarea 같은 내용에 줄바꿈 포함돼서 출력
