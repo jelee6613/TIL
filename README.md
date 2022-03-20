@@ -4,9 +4,7 @@
 
 # 📓 하루하루 배운 것들의 기록 (TIL)
 
-`first_commit : 2022_01_13`
 
-`recent_commit : 2022_03_13`
 
 </head>
 
@@ -21,7 +19,7 @@
   
    <br>
   
-* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/django">django</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
+* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/database">database</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/django">django</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
 
   👉 해당 과목을 공부하면서 단계적으로 정리한 모음집입니다.
 
@@ -56,6 +54,10 @@
 `week1` : `django`
 
 `week2` : `django`
+
+`week2` : `database`, `sql`, <span style="color:red;">`algorithm` </span>
+
+
 
 <hr>
 
