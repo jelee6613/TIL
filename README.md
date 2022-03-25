@@ -55,7 +55,9 @@
 
 `week2` : `django`
 
-`week2` : `database`, `sql`, <span style="color:red;">`algorithm` </span>
+`week3` : `database`, `sql`, <span style="color:red;">`algorithm` </span>
+
+`week4` : <span style="color:red;">`algorithm` </span>
 
 
 
