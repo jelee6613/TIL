@@ -13,15 +13,15 @@
 
 ## 🔍 Guide
 
-* <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/aps">aps</a> 
+* 각종 알고리즘 사이트에서 기억하고 싶은 문제
 
-  👉 각종 알고리즘 사이트에서 기억하고 싶은 문제
+  👉 <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/aps">aps</a> 
   
    <br>
   
-* <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/database">database</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/django">django</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
+* 해당 과목을 공부하면서 단계적으로 정리한 모음집
 
-  👉 해당 과목을 공부하면서 단계적으로 정리한 모음집
+  👉 <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/algorithm'>algorithm</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/database">database</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/django">django</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/git">git</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/html%26css">html&css</a> / <a style="text-decoration-line:none;" href="https://github.com/jelee6613/TIL/tree/master/markdown">markdown</a> / <a style="text-decoration-line:none;" href='https://github.com/jelee6613/TIL/tree/master/python'>python</a> 
 
   <br>
 
