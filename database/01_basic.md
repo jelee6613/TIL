@@ -1,6 +1,6 @@
 
 
-# 01_Database_Basic
+# Database_01_Basic
 
 * 데이터베이스는 체계화된 데이터의 모임
 * 몇 개의 자료 파일을 조직적으로 통합
