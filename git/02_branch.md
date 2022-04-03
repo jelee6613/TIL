@@ -1,4 +1,4 @@
-# 02_branch
+# Git_02_branch
 
 `head `: 내 현재 위치
 
