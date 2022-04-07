@@ -106,3 +106,47 @@ class ArticleForm(forms.ModelForm):
 
 * 요청한 데이터가 특정 조건에 충족하는지 확인 작업
 * 데이터베이스 각 필드 조건에 올바르지 않은 데이터가 서버로 전송되지 않도록 방지
+
+
+
+
+
+## request.method 지정
+
+```django
+# views.py
+
+from django.views.decorators.http import require_POST, require_http_methods, require_safe
+
+@require_safe
+def index(request):
+  students = Student.objects.all()
+  context = {
+    'students': students,
+  }
+  return render(request, 'classroom/index.html', context)
+
+# POST와 GET만 받음
+@require_http_methods(["POST", "GET"])
+def create(request):
+  if request.method == "POST":
+    form = StudentForm(request.POST)
+    if form.is_valid():
+      student = form.save()
+      return redirect('classroom:detail', student.pk)
+  
+  else:
+    form = StudentForm()
+  context = {
+    'form': form,
+  }
+  return render(request, 'classroom/create.html', context)
+
+# POST만 받음
+@require_POST
+def delete(request, pk):
+  student = get_object_or_404(Student, pk=pk)
+  student.delete()
+  return redirect('classroom:index')
+```
+
