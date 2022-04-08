@@ -2,7 +2,7 @@
 
 <head>
 
-# 📓 하루하루 배운 것들의 기록 (TIL)
+# 📓 학습일지 (TIL)
 
 
 
@@ -60,6 +60,12 @@
 `week4` : <span style="color:red;">`algorithm` </span>
 
 `week5` : <span style="color:red;">`algorithm` </span>
+
+<br>
+
+`2022_04`
+
+`week1` : <span style="color:red;">`algorithm` </span>, `django`
 
 
 
