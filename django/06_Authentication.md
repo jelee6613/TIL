@@ -120,3 +120,144 @@ def logout(request):
 
 
 ### login_required (decorator)
+
+* 사용자가 로그인되어 있지 않으면, settings.LOGIN_URL에 설정된 문자열 기반 절대 경로로 redirect
+  LOGIN_URL의 기본 값은 '/accounts/login/'
+
+* 사용자가 로그인되어 있으면 정상적으로 view 함수 실행
+
+* 인증 성공 시 사용자가 redirect 되어야하는 경로는 "next"라는 쿼리 문자열 매개 변수에 저장됨
+  /accounts/login/?next=/articles/create/
+
+  * 로그인이 정상적으로 진행되면 기존에 요청했던 주소로 redirect 하기 위해 마치 주소를 keep 해주는 것
+
+  * 단, 별도로 처리 해주지 않으면 우리가 view에 설정한 redirect 경로로 이동하게 됨
+
+    ```python
+    # accounts/views.py
+    
+    def login(request):
+        if request.user.is_authenticated:
+            return redirect('articles:index')
+        
+        if request.method == "POST":
+            form = AuthenticationForm(request, reuqest.POST)
+            if form.is_valid():
+                auth_login(request, form.get_user())
+                return redirect(request.GET.get('next') or 'articles:index')
+        
+        else:
+            form = AuthenticationForm()
+        context = {
+            'form': form,
+        }
+        return render(request, 'accounts/login.html', context)
+    ```
+
+  
+
+## 회원가입
+
+```python
+# accounts/views.py
+
+def signup(request):
+    if reuqest.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            auth_login(request, user)  # 회원가입 후 자동 로그인
+            return redirect('articles:index')
+    else:
+        form = UserCreationForm()
+    context = {
+        'form': form,
+    }
+    return render(request, 'accounts/signup.html', context)
+```
+
+
+
+
+
+## 회원탈퇴
+
+* 회원탈퇴는 DB에서 사용자를 삭제하는 것과 같음
+
+
+
+```python
+# accounts/views.py
+
+def delete(reuqest):
+    if request.user.is_authenticated:
+        request.user.delete()
+        auth_logout(request)  # 세션도 함께 지운다.
+    return redirect('articles:index')
+```
+
+
+
+
+
+## 회원정보 수정
+
+* `UserChangeForm` : 사용자의 정보 및 권한을 변경하기 위해 admin 인터페이스에서 사용되는 ModelForm
+
+
+
+```python
+# accounts/views.py
+
+def update(request):
+    if request.method == "POST":
+        form = UserChangeForm(requset.POST, instance=request.user)
+        if form.is_valid():
+            form.save()
+            return redirect('articles:index')
+    else:
+        form = UserchangeForm(instance=request.user)
+    context = {
+        'form': form,
+    }
+    return render(request, 'accounts/update.html', context)
+```
+
+
+
+
+
+* `CustomUserChangeForm`
+
+```python
+# accounts/forms.py
+
+from django.contrib.auth.forms import UserChangeForm
+from django.contrib.auth import get_user_model
+
+class CustomUserChangeForm(UserChangeForm):
+    
+    class Meta:
+        model = get_user_model()
+        fields = ('email', 'first_name', 'last_name',)  # 수정시 필요한 필드만 작성
+```
+
+
+
+```python
+# accounts/views.py
+
+def update(request):
+    if request.method == "POST":
+        form = CustomUserChangeForm(request.POST, instance=request.user)
+        if form.is_valid():
+            form.save()
+            return redirect('articles:index')
+    else:
+        form = CustomUserChangeForm(instance=request.user)
+    context = {
+        'form': form,
+    }
+    return render(request, 'accounts/update.html', context)
+```
+
