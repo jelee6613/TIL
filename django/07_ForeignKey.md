@@ -127,4 +127,4 @@ Comment(N) => Article(1)
 ## DB 지우기
 
 * rm db.sqlite3
-* rm app/migrations/0*
+* rm app이름/migrations/0*
