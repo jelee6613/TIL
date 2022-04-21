@@ -80,3 +80,14 @@ class Reservation(models.Model):
     reserved_at = models.DatetimeField(auto_now_add=True)
 ```
 
+
+
+
+
+### symmetrical
+
+```python
+followings = models.ManyToManyField("self", symmetrical=False, related_name='followers')
+```
+
+1번이 3번을 팔로우하면, 3번도 1번을 자동 팔로우하는 것을 막기 위해 `symmetrical=False` 처리
