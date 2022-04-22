@@ -67,6 +67,10 @@
 
 `week1` : <span style="color:red;">`algorithm` </span>, `django`
 
+`week2` : `django`
+
+`week3` : `django(DRF)`
+
 
 
 <hr>
