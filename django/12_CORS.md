@@ -4,17 +4,19 @@
 
 
 
-- Server (정보 제공)
+## Server & Client
+
+- **Server** (정보 제공)
   클라이언트에게 '정보', '서비스'를 제공하는 컴퓨터 시스템
   DB와 통신하며 데이터 CRUD
-- Client (정보 요청&표현)
+- **Client** (정보 요청&표현)
   서버가 제공하는 **서비스를 요청**하고, 서비스 요청에 필요한 인자를 **서버가 요구하는 방식에 맞게 제공**하며, 서버의 응답을 **사용자에게 적절한 방식으로 표현**하는 기능을 가진 시스템
 
 
 
-Same-origin policy (SOP)
+## Same-origin policy (SOP)
 
-Same origin http(Protocol) :// localhost(Host) : 3000(Port) / posts/3(Path)
+Same origin http(**Protocol**) :// localhost(**Host**) : 3000(**Port**) / posts/3(Path)
 두 URL의 Protocol, Port, Host가 모두 같아야 동일한 출처라 할 수 있음
 
 - 동일 출처 정책
@@ -23,7 +25,7 @@ Same origin http(Protocol) :// localhost(Host) : 3000(Port) / posts/3(Path)
 
 
 
-Cross-Origin Resource Sharing (CORS)
+## Cross-Origin Resource Sharing (CORS)
 
 - 교차 출처 리소스(자원) 공유
 - 추가 HTTP header를 사용하여 특정 출처에서 실행중인 웹 애플리케이션이 다른 출처의 자원에 접근 할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제
@@ -31,7 +33,7 @@ Cross-Origin Resource Sharing (CORS)
 
 
 
-Why CORS ?
+### Why CORS ?
 
 1. 브라우저 & 웹 애플리케이션 보호
    - 악의적인 사이트의 데이터 가져오지 않도록 사전 차단
@@ -42,7 +44,7 @@ Why CORS ?
 
 
 
-CORS 시나리오 예시
+### CORS 시나리오 예시
 
 1. Vue.js에서 A 서버로 요청
 2. A 서버는 Access-Control-Allow-Origin에 특정한 origin을 포함 시켜 응답
@@ -53,11 +55,11 @@ CORS 시나리오 예시
 
 
 
-Start
+### CORS at Django
 
 1. `$ pip install django-cors-headers`
 
-2. settings.py 추가
+2. `settings.py`
 
    ```python
    # settings.py
@@ -90,4 +92,73 @@ Start
 
    
 
+   
+
+## Authentication & Authorization
+
+- **Authentication** (인증)
+  -  자신이라고 주장하는 유저 확인
+- **Authorization** (권한/허가)
+  - 유저가 자원에 접근할 수 있는지 여부 확인
+
+
+
+### Authentication at DRF
+
+1. `$ pip install django-allauth dj-rest-auth` 
+
+2. `settings.py`
+
+   ```python
+   INSTALLED_APPS = [
+       ...
+       'rest_framework',
+       # token authentication
+       'rest_framework.authtoken',
+       
+       # DRF auth 담당
+       'dj_rest_auth',
+       'dj_rest.auth.registration',
+       
+       # django allauth
+       'allauth',
+       'allauth.account',
+       ...
+       # allauth 사용을 위해 필요
+       'django.contrib.sites',
+       ...
+   ]
+   
+   # django.contrib.sites 에서 등록 필요
+   SITE_ID = 1
+   
+   # drf 설정
+   REST_FRAMEWORK = {
+       # 기본 인증방식 설정
+       'DEFAULT_AUTHENTICATION_CLASSES': [
+         'rest_framework.authentication.TokenAuthentication',  
+       ],
+       
+       # 기본 권한 설정
+       'DEFAULT_PERMISSION_CLASSES': [
+           # 'rest_framework.permissions.AllowAny',  # 기본적으로 모두에게 허용
+           'rest_framework.permissions.IsAuthenticated',  # 기본적으로 인증받아야 사용
+       ],
+   }
+   ```
+
+3.  `urls.py`
+
+   ```python
+   # urls.py
+   
+   urlpatterns = [
+       path('admin/', admin.site.urls),
+       ...
+       # 패턴은 자유롭게 설정 가능. 포워딩만 dj_rest_auth 로
+       path('api/v1/accounts/', include('dj_rest_auth.urls')),
+       path('api/v1/accounts/signup/', include('dj_rest_auth.registration.urls')),
+   ]
+   ```
+   
    
