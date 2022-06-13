@@ -51,3 +51,26 @@
   age = 28;  // 할당
   
   int age2 = 25;  // 선언 & 할당
+
+
+
+## 형변환
+
+- byte < short < int < long < float < double
+- 묵시적(암묵적) : Implicit Casting
+  - 범위가 넓은 데이터 형에 좁은 데이터 형을 대입하는 것
+- 명시적 : Explicit Casting
+  - 범위가 좁은 데이터 형에 넓은 데이터 형을 대입하는 것
+  - 형변환 연산자 사용 - (타입) 값;
+
+```java
+// 작은집에서 큰집으로 이사갈때는 문제가 없다. (묵시적)
+short sa = 32767;
+int c = sa;
+// 큰집에서 작은집으로 갈떄는.. 컨펌이 필요하다. (명시적)
+short sb = (short) c;
+// 같은 크기의 집이라도 컨펌이 필요한 경우 (명시적)
+float f = 10;
+int g = (int) f;
+```
+
