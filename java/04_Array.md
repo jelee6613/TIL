@@ -26,7 +26,24 @@ score[4] = 5;
 
 
 
-## for문으로 array의 max값 찾기
+### 초기화
+
+- {}를 활용하는 방식 : 배열 선언 시에만 설정 가능
+  1차원 배열 : 배열유형 [] 배열명 = {값, .. 값};
+
+  ```java
+  int[] prime = {1, 2, 3};
+  ```
+
+  2차원 배열 : 배열유형 \[][] 배열명 = { {값1, 값2}, {값3, 값4} };
+
+  ```java
+  int[][] twoArr = { {1, 2}, {3, 4}, {5, 6} };
+  ```
+
+  
+
+### for문으로 array의 max값 찾기
 
 ```java
 int max_score = 0;
@@ -46,9 +63,10 @@ System.out.printIn(max_score);
   for(int i = 0; i < score.length; i++)
   ```
 
-  
 
-## for-each
+
+
+### for-each
 
 - for(원소 : 데이터의 모임)
   데이터의 모임에서 원소를 하나씩 꺼내서 작업을 수행한다.
@@ -65,7 +83,11 @@ for(int n : score) {
 
 
 
-## Arrays
+
+
+## 라이브러리
+
+### java.util.Arrays
 
 배열에 들어있는 원소를 한 눈에 볼 수 있다.
 
@@ -74,5 +96,21 @@ import java.util.Arrays;
 
 System.out.printIn(Arrays.toString(score));
 // [80, 75, 60, 100, 5]
+```
+
+
+
+### Math.min & Math.max
+
+```java
+int[] intArray = {3, 20, 12, 5};
+
+int max = Integer.MIN_VALUE;
+int min = Integer.MAX_VALUE;
+
+for (int i = 0; i < intArray.length; i++) {
+    max = Math.min(intArray[i], max);
+    min = Math.max(intArray[i], min);
+}
 ```
 
