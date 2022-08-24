@@ -1,6 +1,7 @@
 # Spring_02_Library
 
 * Gradle은 의존 관계가 있는 라이브러리를 함께 다운로드 한다.
+- 환경설정 > Gradle > Build and run using & Run tests using > IntelliJ IDEA
 
 ## 스프링 부트 라이브러리
 - spring-boot-starter-web

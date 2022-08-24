@@ -22,7 +22,6 @@
 
 
 
-## STS (Spring Tools Suite) 설치
-
-- 스프링 개발을 위한 개발환경
-- Eclipse > Help > Eclipse Marketplace > sts 검색 -> 설치
+## Spring Initializr
+- https://start.spring.io/
+- 환경설정 > Gradle > Build and run using & Run tests using > IntelliJ IDEA
