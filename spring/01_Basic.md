@@ -21,8 +21,14 @@
 - Spring is supportive : 커뮤니티가 잘 발달해 있으며, 빠른 시작, 가이드, 자습서 등의 리소스를 지원하고있다.
 
 
-
-## STS (Spring Tools Suite) 설치
-
-- 스프링 개발을 위한 개발환경
-- Eclipse > Help > Eclipse Marketplace > sts 검색 -> 설치
+## 프로젝트 생성
+<a href="start.spring.io">start.spring.io</a>
+  - Project: Gradle
+  - Language: Java
+  - Project Metadata
+    - Group: 도메인명
+    - Artifact: 빌드 결과물, 프로젝트명
+  - Dependencies
+    - Spring Web
+    - Thymeleaf
+  - GENERATE !!
