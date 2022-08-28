@@ -81,9 +81,9 @@
 
 `week2` : `vuex`
 
-`week3` : `django(DRF)`
+`week3` : `project(Moodle)`
 
-`week4` : `django(DRF)`
+`week4` : `project(Moodle)`
 
 <br>
 
@@ -97,11 +97,25 @@
 
 `2022_07`
 
-`week1` : `Vue`
+`week1` : `project(Queant)`
 
-`week2` : `Vue`
+`week2` : `project(Queant)`
 
-`week3` : `Vue`
+`week3` : `project(Queant)`
+
+`week4` : `project(Queant)`
+
+<br>
+
+`2022_08`
+
+`week1` : `project(Queant)`
+
+`week2` : `project(Queant)`
+
+`week3` : `project(Queant)`
+
+
 
 
 <hr>
@@ -142,6 +156,10 @@
 
 >  Java언어로 조건문, 반복문을 학습하고, 기본적인 알고리즘 문제를 풀면서 감을 익혔다. Java는 Python과 달리 변수를 선언함과 동시에 타입을 지정해야 한다는 점이 크게 와닿았고, 컴파일러의 특징을 가진다. 실행할 때마다 번역이 선행되는 인터프리터와 달리 컴파일러는 전체 프로그램 코드를 생성하므로 메모리가 많이 소모되지만, 수행 속도가 빠르다는 장점이 있다. 하지만 컴퓨터 성능이 좋아지면서 민감한 개발이 아닌 경우 자바와 파이썬의 속도 차이는 거의 없다고 한다.
 
+
+`2022_07 ~ 2022_08`
+
+>  Frontend를 맡아 프로젝트를 시작했다. 기획과 설계를 마치고, 7월 중순부터 개발에 들어갔다. 교육만 들었던 Vue를 이용해 프로젝트를 진행하니 확실히 깊은 학습을 할 수 있었다. route와 component의 구조, Vuex로 관리하는 data들의 생명주기 등 Backend에게 받은 데이터를 사용자에게 어느 시점에 어떻게 보여줄 것인지에 대한 고민을 하며 구현하는 과정을 겪을 수 있었다. 
 </body>
 
 </html>
