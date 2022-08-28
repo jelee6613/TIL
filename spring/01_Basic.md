@@ -21,7 +21,14 @@
 - Spring is supportive : 커뮤니티가 잘 발달해 있으며, 빠른 시작, 가이드, 자습서 등의 리소스를 지원하고있다.
 
 
-
-## Spring Initializr
-- https://start.spring.io/
-- 환경설정 > Gradle > Build and run using & Run tests using > IntelliJ IDEA
+## 프로젝트 생성
+<a href="start.spring.io">start.spring.io</a>
+  - Project: Gradle
+  - Language: Java
+  - Project Metadata
+    - Group: 도메인명
+    - Artifact: 빌드 결과물, 프로젝트명
+  - Dependencies
+    - Spring Web
+    - Thymeleaf
+  - GENERATE !!
