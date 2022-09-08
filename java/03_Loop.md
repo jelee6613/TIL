@@ -7,9 +7,9 @@
 ```java
 int num = 5;
 
-while (a > 0) {
+while (num > 0) {
     System.out.printIn("haha");
-    a--;
+    num--;
 }
 
 // haha 5번 출력

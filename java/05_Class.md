@@ -119,11 +119,11 @@ class Movie {
 	}
     
     void print(String t) {
-        System.out.printIn(t);
+        System.out.println(t);
     }
     
     void print(double r) {
-        System.out.printIn(r);
+        System.out.println(r);
     }
 }
 ```
@@ -227,7 +227,7 @@ public class StudentManager {
     void changeMajor(String name, String major) {
         Student s = getStudent(name);
         if (s == null) {
-            System.out.printIn("No result")
+            System.out.println("No result")
         } else {
             s.setMajor(major);
         }
@@ -275,7 +275,7 @@ public class StudentTest {
             sel = sc.nextInt();
             
             if (sel == 1) {
-                System.out.printIn("이름: ");
+                System.out.println("이름: ");
                 String name = sc.next();
                 
                 System.out.println("나이: ");
@@ -340,7 +340,7 @@ public abstract class Chef {
     String spectiality;
     
     public void eat() {
-        System.out.printIn("음식을 먹는다.")
+        System.out.println("음식을 먹는다.")
     }
     
     public abstract void cook();
@@ -350,7 +350,7 @@ public class KFoodChef extends Chef {
     
     @Override
     public void cook() {  // 부모클래스에서 추상메소드이기 때문에 무조건 구현해야 하는 메소드
-        System.out.printIn("한식을 조리합니다.")
+        System.out.println("한식을 조리합니다.")
     }
 }
 
@@ -365,12 +365,12 @@ public class ChefTest {
             // 익명클래스 문법으로 1회용 구현과 함께 객체화 가능
             @Override
             public void cook() {
-                System.out.printIn("추상메소드 1회용 구현")
+                System.out.println("추상메소드 1회용 구현")
             }
             
             @Override
             public void eat() {
-        		System.out.printIn("음식을 먹는다.")
+        		System.out.println("음식을 먹는다.")
     		}
         }
     }

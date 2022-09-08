@@ -26,7 +26,7 @@ class Person {
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        System.out.printIn("Person 클래스의 생성자")
+        System.out.println("Person 클래스의 생성자")
     }
 }
 
@@ -36,7 +36,7 @@ class Student extends Person {
     public Student(String name, int age, String major) {
         super(name, age); // 2
         this.major = major;
-        System.out.printIn("Child 클래스의 생성자")
+        System.out.println("Child 클래스의 생성자")
     }
 }
 
@@ -104,7 +104,7 @@ package 상속;
 class Parent {
     int data = 10;
     public void print() {
-        System.out.printIn(data);
+        System.out.println(data);
     }
 }
 
@@ -112,9 +112,9 @@ class Child {
     int data = 20;
     public void print() {
         int data = 30;
-        System.out.printIn(data);        // 30
-        System.out.printIn(this.data);   // 20
-        System.out.printIn(super.data);  // 10
+        System.out.println(data);        // 30
+        System.out.println(this.data);   // 20
+        System.out.println(super.data);  // 10
     }
 }
 
@@ -123,7 +123,7 @@ public class ExtendsTest {
         Parent p = new Child();
         
         // 고개를 들어 왼쪽을 보라, Parent의 data
-        System.out.printIn(p.data);
+        System.out.println(p.data);
         
         // 함수는 예외로 동적 바인딩이 일어나 Child의 print가 실행된다.
         p.print();  // 30 20 10
