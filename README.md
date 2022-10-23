@@ -135,6 +135,10 @@
 
 `week1` : `project(Bookiz)`
 
+`week2` : `project(ChookBae)`
+
+`week3` : `project(ChookBae)`
+
 
 
 <hr>
@@ -179,6 +183,11 @@
 `2022_07 ~ 2022_08`
 
 >  Frontend를 맡아 프로젝트를 시작했다. 기획과 설계를 마치고, 7월 중순부터 개발에 들어갔다. 교육만 들었던 Vue를 이용해 프로젝트를 진행하니 확실히 깊은 학습을 할 수 있었다. route와 component의 구조, Vuex로 관리하는 data들의 생명주기 등 Backend에게 받은 데이터를 사용자에게 어느 시점에 어떻게 보여줄 것인지에 대한 고민을 하며 구현하는 과정을 겪을 수 있었다. 
+
+
+`2022_09 ~ 2022_10`
+
+>  동화를 읽으면 STT로 문장 유사도를 검사해서 아이와 함께 동화를 읽는 Bookiz 프로젝트를 진행했다. AWS EC2, Nginx, Docker, Jenkins로 CI/CD 및 서버를 관리했고, Django 구조와 다른 사람의 Spring boot 코드를 보면서 Spring boot 백엔드를 담당했다. 처음 맡는 프레임워크, 툴이라 구글링과 인프런 강의, 다른 사람의 스켈레톤 코드를 보며 빠르게 학습했다.
 </body>
 
 </html>
